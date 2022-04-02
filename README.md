@@ -25,7 +25,7 @@ script.js -
 * GET AND SET to save and display text to local storage and the index screen.
 
 https://github.com/jimbolikesgithub/Day-Planner-05
-![Day Planner Screenshot]()
+![work-day-schedule-screenshot](https://user-images.githubusercontent.com/97565085/161400725-cc76cf77-e5b0-4312-b55c-8037da5d8cad.png)
 
 Acknowledgements
 ----------------
