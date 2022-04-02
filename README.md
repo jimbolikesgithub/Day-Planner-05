@@ -17,7 +17,7 @@ style.css -
 * Changed the colors for the past, present, and future (I thought mine worked nicer for me).
 
 * Didn't change much else, as most of it was predefined.
-
+ 
 script.js - 
 ---------
 * Added a lot of jQuery (works so much better).
