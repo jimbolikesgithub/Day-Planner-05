@@ -12,16 +12,16 @@
     * Use columns and rows to stretch timeblocks
     * Import fontawesome 'save' btn
 // -----------------------------------------------------------------------
-3. Color code timeblocks according to what hour it is
+3. Color code timeblocks according to what hour it is ---> DONE <---
     * MUST iterate through textareas
     * IF it's the present, the color changes from future 
     * IF it's past the present time, the color code changes from present to past
 // -----------------------------------------------------------------------
-4. Save into the local storage
+4. Save into the local storage ---> DONE <---
     * Create a function and link it to the button so that, ON CLICK...
     * ...everything input into the text-area's IN EACH PARENT ID CONTAINER...
     * ...is saved into local storage
 // -----------------------------------------------------------------------
-5. Get from local storage and display into text area
+5. Get from local storage and display into text area ---> DONE <---
     * SHOULD ONLY TAKE ONE LINE EACH (no function necessary)
 
