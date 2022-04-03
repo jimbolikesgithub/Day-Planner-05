@@ -39,14 +39,20 @@ $('.text-area').each(function() {
     if (parsedTimeContainer === currentTime) {
         // ...ADD the .present class to the .text-area classes
         $(this).addClass('present');
+        $(this).removeClass('past');
+        $(this).removeClass('future');
     // ELSE IF the parsed ID is greater (AS A NUMBER) to the current time (meaning it is now the FUTURE)...
     } else if (parsedTimeContainer > currentTime) {
         // ...ADD the .future class to the .text-area classes
         $(this).addClass('future');
+        $(this).removeClass('past');
+        $(this).removeClass('present');
         // ELSE...
     } else {
         // ...ADD the .past class to the .text-area classes
         $(this).addClass('past');
+        $(this).removeClass('present');
+        $(this).removeClass('future');
     }
     // CONSOLE LOG to make sure it works
     console.log(timeContainer)
